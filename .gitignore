@@ -1,0 +1,4 @@
+/target
+/snapshots
+.env
+.env.local
