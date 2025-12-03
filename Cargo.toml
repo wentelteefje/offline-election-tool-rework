@@ -15,8 +15,6 @@ hex = "0.4"
 hex-literal = "1.1.0"
 clap = { version = "4", features = ["derive"] }
 jsonrpsee = { version = "0.24", features = ["ws-client"] }
-
-# We only need PerU16 from sp-runtime; no reason to go no_std here.
 sp-arithmetic = { version = "28.0.0", default-features = false, features = ["std"] }
 sp-npos-elections = "38.0.0"
 sp-core = { version = "38.0.0", default-features = false }

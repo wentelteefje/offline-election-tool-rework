@@ -56,7 +56,7 @@ pub fn build_runtime_exposures_from_staked(
                 continue;
             }
 
-            let stake_balance: Balance = (*share as u128);
+            let stake_balance: Balance = *share as u128;
 
             let entry = map.entry(*validator).or_insert(RuntimeExposure {
                 validator: *validator,
